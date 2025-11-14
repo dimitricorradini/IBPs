@@ -1,0 +1,26 @@
+digraph F9_7_3676 {
+  label="F9_7_3676";
+  rankdir="LR";
+  subgraph edges {
+    -1 -> 2 [label="(-p2-p1,2*r;1)"];
+    -2 -> 3 [label="(p1,0;2)"];
+    -3 -> 5 [label="(p2,0;3)"];
+    1 -> 4 [label="(k3,0;6)"];
+    3 -> 2 [label="(-k1+p1,0;7)"];
+    1 -> 2 [label="(k1+p2,0;8)"];
+    3 -> 4 [label="(k2+k1+p2,0;10)"];
+    4 -> 3 [label="(k2+p2,0;13)"];
+    5 -> 1 [label="(k1+p2+k3,0;14)"];
+    4 -> 5 [label="(k1+k3,0;15)"];
+  }
+  subgraph incoming { rank="source"; -1; -2; -3; }
+-3 [shape=point];
+-2 [shape=point];
+-1 [shape=point];
+1 [shape=point];
+2 [shape=point];
+3 [shape=point];
+4 [shape=point];
+5 [shape=point];
+}
+

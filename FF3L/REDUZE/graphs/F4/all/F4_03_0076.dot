@@ -1,0 +1,21 @@
+digraph F4_3_76 {
+  label="F4_3_76";
+  rankdir="LR";
+  subgraph edges {
+    -1 -> 1 [label="(-p2-p1,2*r;1)"];
+    -2 -> 1 [label="(p1,0;2)"];
+    -3 -> 1 [label="(p2,0;3)"];
+    2 -> 2 [label="(k3,0;6)"];
+    3 -> 3 [label="(p1-k1,0;7)"];
+    4 -> 4 [label="(p2+k2+k1,0;10)"];
+  }
+  subgraph incoming { rank="source"; -1; -2; -3; }
+-3 [shape=point];
+-2 [shape=point];
+-1 [shape=point];
+1 [shape=point];
+2 [shape=point];
+3 [shape=point];
+4 [shape=point];
+}
+

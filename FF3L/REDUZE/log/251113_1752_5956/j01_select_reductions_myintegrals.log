@@ -1,0 +1,300 @@
+
+Date: Thu Nov 13 17:52:59 2025
+
+
+conditional: false
+input_file: myintegrals
+output_file: tmp/myintegrals.tmp
+notfound_file: myintegrals.tmp.masters
+preferred_masters_file: ""
+generate_crossed: false
+
+Finding selected integrals
+Reading integrals from file "myintegrals"
+Using integral family F15 (id reset to 1)
+Loading crossings from file ./sectormappings/crossings.yaml
+Crossing equivalence: '' -> ''
+using crossing x23 (invs: {}, mom: {p2==p1,p1==p2})
+Crossing equivalence: 'x23' -> ''
+Crossing equivalence: '' -> ''
+Loaded crossings for kinematics ''
+Loaded crossings for 1 kinematics
+Done loading crossings
+  generated crossed integral family F15x23 (id set to 2)
+Using integral family F6 (id reset to 3)
+  generated crossed integral family F6x23 (id set to 4)
+Using integral family F9 (id reset to 5)
+  generated crossed integral family F9x23 (id set to 6)
+Using integral family F2 (id reset to 7)
+  generated crossed integral family F2x23 (id set to 8)
+Using integral family F38 (id reset to 9)
+  generated crossed integral family F38x23 (id set to 10)
+Using integral family F4 (id reset to 11)
+  generated crossed integral family F4x23 (id set to 12)
+Done loading integral families
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[0,'
+checking for derived integral family 'F15[0,'
+trying to derive integral family 'F15[1,'
+checking for derived integral family 'F15[1,'
+trying to derive integral family 'F15[1,'
+checking for derived integral family 'F15[1,'
+trying to derive integral family 'F15[1,'
+checking for derived integral family 'F15[1,'
+trying to derive integral family 'F6[0,'
+checking for derived integral family 'F6[0,'
+trying to derive integral family 'F6[0,'
+checking for derived integral family 'F6[0,'
+trying to derive integral family 'F6[0,'
+checking for derived integral family 'F6[0,'
+trying to derive integral family 'F6[0,'
+checking for derived integral family 'F6[0,'
+trying to derive integral family 'F6[0,'
+checking for derived integral family 'F6[0,'
+trying to derive integral family 'F6[0,'
+checking for derived integral family 'F6[0,'
+trying to derive integral family 'F6[0,'
+checking for derived integral family 'F6[0,'
+trying to derive integral family 'F6[0,'
+checking for derived integral family 'F6[0,'
+trying to derive integral family 'F6[0,'
+checking for derived integral family 'F6[0,'
+trying to derive integral family 'F6[1,'
+checking for derived integral family 'F6[1,'
+trying to derive integral family 'F6[1,'
+checking for derived integral family 'F6[1,'
+trying to derive integral family 'F6[1,'
+checking for derived integral family 'F6[1,'
+trying to derive integral family 'F9[0,'
+checking for derived integral family 'F9[0,'
+trying to derive integral family 'F9[0,'
+checking for derived integral family 'F9[0,'
+trying to derive integral family 'F9[0,'
+checking for derived integral family 'F9[0,'
+trying to derive integral family 'F2[0,'
+checking for derived integral family 'F2[0,'
+trying to derive integral family 'F2[0,'
+checking for derived integral family 'F2[0,'
+trying to derive integral family 'F2[0,'
+checking for derived integral family 'F2[0,'
+trying to derive integral family 'F2[0,'
+checking for derived integral family 'F2[0,'
+trying to derive integral family 'F2[0,'
+checking for derived integral family 'F2[0,'
+trying to derive integral family 'F38[0,'
+checking for derived integral family 'F38[0,'
+trying to derive integral family 'F38[0,'
+checking for derived integral family 'F38[0,'
+trying to derive integral family 'F38[0,'
+checking for derived integral family 'F38[0,'
+trying to derive integral family 'F38[0,'
+checking for derived integral family 'F38[0,'
+trying to derive integral family 'F38[0,'
+checking for derived integral family 'F38[0,'
+trying to derive integral family 'F38[1,'
+checking for derived integral family 'F38[1,'
+trying to derive integral family 'F38[1,'
+checking for derived integral family 'F38[1,'
+trying to derive integral family 'F38[1,'
+checking for derived integral family 'F38[1,'
+trying to derive integral family 'F38[1,'
+checking for derived integral family 'F38[1,'
+trying to derive integral family 'F38[1,'
+checking for derived integral family 'F38[1,'
+trying to derive integral family 'F4[0,'
+checking for derived integral family 'F4[0,'
+trying to derive integral family 'F4[0,'
+checking for derived integral family 'F4[0,'
+trying to derive integral family 'F4['
+checking for derived integral family 'F4['
+trying to derive integral family 'F4[0,'
+checking for derived integral family 'F4[0,'
+trying to derive integral family 'F4[1,'
+checking for derived integral family 'F4[1,'
+trying to derive integral family 'F4[1,'
+checking for derived integral family 'F4[1,'
+trying to derive integral family 'F4[1,'
+checking for derived integral family 'F4[1,'
+Solutions for 52 different integrals requested
+Finding crossing equivalences
+Opening output file 'tmp/myintegrals.tmp'
+Writing shift identities
+Search shift for F15 4 1728  4 0  0 0 0 0 0 0 1 1 0 1 1 0read key 'sectormappings' in file './sectormappings/sectormappings_F15.yaml'
+Found valid sector mappings for F15
+ => found shift, select red for rhs
+Search shift for F15 5 2260  5 0  0 0 1 0 1 0 1 1 0 0 0 1 => found shift, select red for rhs
+Search shift for F15 5 2288  5 0  0 0 0 0 1 1 1 1 0 0 0 1 => found shift, select red for rhs
+Search shift for F15 5 2768  5 0  0 0 0 0 1 0 1 1 0 1 0 1 => found shift, select red for rhs
+Search shift for F15 5 3008  5 0  0 0 0 0 0 0 1 1 1 1 0 1 => found shift, select red for rhs
+Search shift for F15 6 504  6 0  0 0 0 1 1 1 1 1 1 0 0 0 => none
+Search shift for F15 6 1512  6 0  0 0 0 1 0 1 1 1 1 0 1 0 => found shift, select red for rhs
+Search shift for F15 6 2016  6 0  0 0 0 0 0 1 1 1 1 1 1 0 => found shift, select red for rhs
+Search shift for F15 7 3020  7 0  0 0 1 1 0 0 1 1 1 1 0 1 => found shift, select red for rhs
+Search shift for F15 7 3181  7 0  1 0 1 1 0 1 1 0 0 0 1 1 => found shift, select red for rhs
+Search shift for F15 7 3277  7 0  1 0 1 1 0 0 1 1 0 0 1 1 => found shift, select red for rhs
+Search shift for F15 7 3436  7 0  0 0 1 1 0 1 1 0 1 0 1 1 => found shift, select red for rhs
+Search shift for F15 7 4040  7 0  0 0 0 1 0 0 1 1 1 1 1 1 => found shift, select red for rhs
+Search shift for F15 8 3820  8 0  0 0 1 1 0 1 1 1 0 1 1 1 => found shift, select red for rhs
+Search shift for F15 9 3821  9 0  1 0 1 1 0 1 1 1 0 1 1 1 => found shift, select red for rhs
+Search shift for F6 4 1728  4 0  0 0 0 0 0 0 1 1 0 1 1 0read key 'sectormappings' in file './sectormappings/sectormappings_F6.yaml'
+Found valid sector mappings for F6
+ => found shift, select red for rhs
+Search shift for F6 5 976  5 0  0 0 0 0 1 0 1 1 1 1 0 0 => found shift, select red for rhs
+Search shift for F6 5 2768  5 0  0 0 0 0 1 0 1 1 0 1 0 1 => found shift, select red for rhs
+Search shift for F6 5 3008  5 0  0 0 0 0 0 0 1 1 1 1 0 1 => found shift, select red for rhs
+Search shift for F6 5 3904  5 0  0 0 0 0 0 0 1 0 1 1 1 1 => found shift, select red for rhs
+Search shift for F6 6 1740  6 0  0 0 1 1 0 0 1 1 0 1 1 0 => found shift, select red for rhs
+Search shift for F6 7 988  7 0  0 0 1 1 1 0 1 1 1 1 0 0 => found shift, select red for rhs
+Search shift for F6 7 1149  7 0  1 0 1 1 1 1 1 0 0 0 1 0 => found shift, select red for rhs
+Search shift for F6 7 1245  7 0  1 0 1 1 1 0 1 1 0 0 1 0 => found shift, select red for rhs
+Search shift for F6 7 3020  7 0  0 0 1 1 0 0 1 1 1 1 0 1 => found shift, select red for rhs
+Search shift for F6 8 1788  8 0  0 0 1 1 1 1 1 1 0 1 1 0 => found shift, select red for rhs
+Search shift for F6 9 1789  9 0  1 0 1 1 1 1 1 1 0 1 1 0 => found shift, select red for rhs
+Search shift for F9 4 1232  4 0  0 0 0 0 1 0 1 1 0 0 1 0read key 'sectormappings' in file './sectormappings/sectormappings_F9.yaml'
+Found valid sector mappings for F9
+ => found shift, select red for rhs
+Search shift for F9 5 2756  5 0  0 0 1 0 0 0 1 1 0 1 0 1 => found shift, select red for rhs
+Search shift for F9 6 1868  6 0  0 0 1 1 0 0 1 0 1 1 1 0 => found shift, select red for rhs
+Search shift for F2 7 254  7 0  0 1 1 1 1 1 1 1 0 0 0 0read key 'sectormappings' in file './sectormappings/sectormappings_F2.yaml'
+Found valid sector mappings for F2
+ => found shift, select red for rhs
+Search shift for F2 7 254  8 0  0 1 1 1 1 1 2 1 0 0 0 0 => found shift, select red for rhs
+Search shift for F2 7 254  8 0  0 1 1 1 1 1 1 2 0 0 0 0 => found shift, select red for rhs
+Search shift for F2 8 510  8 0  0 1 1 1 1 1 1 1 1 0 0 0 => found shift, select red for rhs
+Search shift for F2 8 510  9 0  0 1 1 1 1 1 1 1 2 0 0 0 => found shift, select red for rhs
+Search shift for F38 4 368  4 0  0 0 0 0 1 1 1 0 1 0 0 0read key 'sectormappings' in file './sectormappings/sectormappings_F38.yaml'
+Found valid sector mappings for F38
+ => found shift, select red for rhs
+Search shift for F38 5 460  5 0  0 0 1 1 0 0 1 1 1 0 0 0 => found shift, select red for rhs
+Search shift for F38 5 481  5 0  1 0 0 0 0 1 1 1 1 0 0 0 => found shift, select red for rhs
+Search shift for F38 5 805  5 0  1 0 1 0 0 1 0 0 1 1 0 0 => found shift, select red for rhs
+Search shift for F38 5 844  5 0  0 0 1 1 0 0 1 0 1 1 0 0 => found shift, select red for rhs
+Search shift for F38 6 504  6 0  0 0 0 1 1 1 1 1 1 0 0 0 => found shift, select red for rhs
+Search shift for F38 6 711  6 0  1 1 1 0 0 0 1 1 0 1 0 0 => found shift, select red for rhs
+Search shift for F38 7 487  7 0  1 1 1 0 0 1 1 1 1 0 0 0 => found shift, select red for rhs
+Search shift for F38 7 493  7 0  1 0 1 1 0 1 1 1 1 0 0 0 => found shift, select red for rhs
+Search shift for F38 8 510  8 0  0 1 1 1 1 1 1 1 1 0 0 0 => found shift, select red for rhs
+Search shift for F4 4 270  4 0  0 1 1 1 0 0 0 0 1 0 0 0read key 'sectormappings' in file './sectormappings/sectormappings_F4.yaml'
+Found valid sector mappings for F4
+ => found shift, select red for rhs
+Search shift for F4 5 206  5 0  0 1 1 1 0 0 1 1 0 0 0 0 => found shift, select red for rhs
+Search shift for F4 5 220  5 0  0 0 1 1 1 0 1 1 0 0 0 0 => found shift, select red for rhs
+Search shift for F4 5 412  5 0  0 0 1 1 1 0 0 1 1 0 0 0 => found shift, select red for rhs
+Search shift for F4 7 223  7 0  1 1 1 1 1 0 1 1 0 0 0 0 => found shift, select red for rhs
+Search shift for F4 7 415  7 0  1 1 1 1 1 0 0 1 1 0 0 0 => found shift, select red for rhs
+Search shift for F4 8 507  8 0  1 1 0 1 1 1 1 1 1 0 0 0 => found shift, select red for rhs
+Selecting: F15 4 150  4 0  0 1 1 0 1 0 0 1 0 0 0 0
+Selecting: F15 5 199  5 0  1 1 1 0 0 0 1 1 0 0 0 0
+Selecting: F15 5 206  5 0  0 1 1 1 0 0 1 1 0 0 0 0
+Selecting: F15 5 220  5 0  0 0 1 1 1 0 1 1 0 0 0 0
+Selecting: F15 5 391  5 0  1 1 1 0 0 0 0 1 1 0 0 0
+Selecting: F15 6 414  6 0  0 1 1 1 1 0 0 1 1 0 0 0
+Selecting: F15 6 483  6 0  1 1 0 0 0 1 1 1 1 0 0 0
+Selecting: F15 6 504  6 0  0 0 0 1 1 1 1 1 1 0 0 0
+Selecting: F15 6 1191  6 0  1 1 1 0 0 1 0 1 0 0 1 0
+Selecting: F15 7 439  7 0  1 1 1 0 1 1 0 1 1 0 0 0
+Selecting: F15 7 439  8 0  2 1 1 0 1 1 0 1 1 0 0 0
+Selecting: F15 7 439  8 0  1 1 1 0 2 1 0 1 1 0 0 0
+Selecting: F15 7 719  7 0  1 1 1 1 0 0 1 1 0 1 0 0
+Selecting: F15 7 911  7 0  1 1 1 1 0 0 0 1 1 1 0 0
+Selecting: F15 7 1135  7 0  1 1 1 1 0 1 1 0 0 0 1 0
+Selecting: F15 7 1390  7 0  0 1 1 1 0 1 1 0 1 0 1 0
+Selecting: F15 8 1003  8 0  1 1 0 1 0 1 1 1 1 1 0 0
+Selecting: F15 8 1773  8 0  1 0 1 1 0 1 1 1 0 1 1 0
+Selecting: F15 8 1773  9 0  1 0 1 1 0 1 1 1 0 2 1 0
+Selecting: F15 8 1966  8 0  0 1 1 1 0 1 0 1 1 1 1 0
+Selecting: F15 9 1967  9 0  1 1 1 1 0 1 0 1 1 1 1 0
+Selecting: F9 8 1470  8 0  0 1 1 1 1 1 0 1 1 0 1 0
+Need reductions for 19 different sectors
+Searching integrals from sector (F15:4:150)
+File ./reductions/reduction_F15_4_150 is not readable
+F15 4 150  4 0  0 1 1 0 1 0 0 1 0 0 0 0: no reduction
+Searching integrals from sector (F15:5:199)
+File ./reductions/reduction_F15_5_199 is not readable
+F15 5 199  5 0  1 1 1 0 0 0 1 1 0 0 0 0: no reduction
+Searching integrals from sector (F15:5:206)
+File ./reductions/reduction_F15_5_206 is not readable
+F15 5 206  5 0  0 1 1 1 0 0 1 1 0 0 0 0: no reduction
+Searching integrals from sector (F15:5:220)
+File ./reductions/reduction_F15_5_220 is not readable
+F15 5 220  5 0  0 0 1 1 1 0 1 1 0 0 0 0: no reduction
+Searching integrals from sector (F15:5:391)
+File ./reductions/reduction_F15_5_391 is not readable
+F15 5 391  5 0  1 1 1 0 0 0 0 1 1 0 0 0: no reduction
+Searching integrals from sector (F15:6:414)
+File ./reductions/reduction_F15_6_414 is not readable
+F15 6 414  6 0  0 1 1 1 1 0 0 1 1 0 0 0: no reduction
+Searching integrals from sector (F15:6:483)
+File ./reductions/reduction_F15_6_483 is not readable
+F15 6 483  6 0  1 1 0 0 0 1 1 1 1 0 0 0: no reduction
+Searching integrals from sector (F15:6:504)
+File ./reductions/reduction_F15_6_504 is not readable
+F15 6 504  6 0  0 0 0 1 1 1 1 1 1 0 0 0: no reduction
+Searching integrals from sector (F15:6:1191)
+File ./reductions/reduction_F15_6_1191 is not readable
+F15 6 1191  6 0  1 1 1 0 0 1 0 1 0 0 1 0: no reduction
+Searching integrals from sector (F15:7:439)
+File ./reductions/reduction_F15_7_439 is not readable
+F15 7 439  7 0  1 1 1 0 1 1 0 1 1 0 0 0: no reduction
+F15 7 439  8 0  2 1 1 0 1 1 0 1 1 0 0 0: no reduction
+F15 7 439  8 0  1 1 1 0 2 1 0 1 1 0 0 0: no reduction
+Searching integrals from sector (F15:7:719)
+File ./reductions/reduction_F15_7_719 is not readable
+F15 7 719  7 0  1 1 1 1 0 0 1 1 0 1 0 0: no reduction
+Searching integrals from sector (F15:7:911)
+File ./reductions/reduction_F15_7_911 is not readable
+F15 7 911  7 0  1 1 1 1 0 0 0 1 1 1 0 0: no reduction
+Searching integrals from sector (F15:7:1135)
+File ./reductions/reduction_F15_7_1135 is not readable
+F15 7 1135  7 0  1 1 1 1 0 1 1 0 0 0 1 0: no reduction
+Searching integrals from sector (F15:7:1390)
+File ./reductions/reduction_F15_7_1390 is not readable
+F15 7 1390  7 0  0 1 1 1 0 1 1 0 1 0 1 0: no reduction
+Searching integrals from sector (F15:8:1003)
+File ./reductions/reduction_F15_8_1003 is not readable
+F15 8 1003  8 0  1 1 0 1 0 1 1 1 1 1 0 0: no reduction
+Searching integrals from sector (F15:8:1773)
+File ./reductions/reduction_F15_8_1773 is not readable
+F15 8 1773  8 0  1 0 1 1 0 1 1 1 0 1 1 0: no reduction
+F15 8 1773  9 0  1 0 1 1 0 1 1 1 0 2 1 0: no reduction
+Searching integrals from sector (F15:8:1966)
+File ./reductions/reduction_F15_8_1966 is not readable
+F15 8 1966  8 0  0 1 1 1 0 1 0 1 1 1 1 0: no reduction
+Searching integrals from sector (F15:9:1967)
+File ./reductions/reduction_F15_9_1967 is not readable
+F15 9 1967  9 0  1 1 1 1 0 1 0 1 1 1 1 0: no reduction
+Searching integrals from sector (F9:8:1470)
+File ./reductions/reduction_F9_8_1470 is not readable
+F9 8 1470  8 0  0 1 1 1 1 1 0 1 1 0 1 0: no reduction
+Output written to file "tmp/myintegrals.tmp"
+Couldn't find solutions for 22 (selected) integral(s)
+  writing these integrals to file 'myintegrals.tmp.masters'
+
+Some solutions were constructed on the fly via a shift symmetry
+or a crossing. It is recommended to run the job reduce_files on
+the output file to ensure fully reduced solutions.
+
+Job done (total time: 3 s)

@@ -1,0 +1,116 @@
+
+Date: Thu Nov 13 17:51:38 2025
+
+Setting up job queue from jobs_setup.yaml
+Updating job queue dependencies
+Processing jobs in serial mode (non-MPI build)
+Inserted new job in queue: job(1): setup sector mappings
+Updating job queue dependencies
+Loading uncrossed integral families from file ./config/integralfamilies.yaml
+Initialize integral family 'F15'
+Loaded integral family F15
+Initialize integral family 'F6'
+Loaded integral family F6
+Initialize integral family 'F9'
+Loaded integral family F9
+Initialize integral family 'F2'
+Loaded integral family F2
+Initialize integral family 'F38'
+Loaded integral family F38
+Initialize integral family 'F4'
+Loaded integral family F4
+Loaded 6 (uncrossed) integral families
+Done loading uncrossed integral families
+Created auxiliary job setup_crossings
+Created auxiliary job verify_permutation_symmetries for family: F15
+Created auxiliary job verify_permutation_symmetries for family: F6
+Created auxiliary job verify_permutation_symmetries for family: F9
+Created auxiliary job verify_permutation_symmetries for family: F2
+Created auxiliary job verify_permutation_symmetries for family: F38
+Created auxiliary job verify_permutation_symmetries for family: F4
+Inserted new job in queue: job(2): verify permutation symmetries of family 'F4'
+Inserted new job in queue: job(3): verify permutation symmetries of family 'F38'
+Inserted new job in queue: job(4): verify permutation symmetries of family 'F2'
+Inserted new job in queue: job(5): verify permutation symmetries of family 'F9'
+Inserted new job in queue: job(6): verify permutation symmetries of family 'F6'
+Inserted new job in queue: job(7): verify permutation symmetries of family 'F15'
+Inserted new job in queue: job(8): setup crossings
+Updated job queue:
+  [p] job(8): setup crossings  [dep: ]
+  [p] job(7): verify permutation symmetries of family 'F15'  [dep: 8]
+  [p] job(6): verify permutation symmetries of family 'F6'  [dep: 8]
+  [p] job(5): verify permutation symmetries of family 'F9'  [dep: 8]
+  [p] job(4): verify permutation symmetries of family 'F2'  [dep: 8]
+  [p] job(3): verify permutation symmetries of family 'F38'  [dep: 8]
+  [p] job(2): verify permutation symmetries of family 'F4'  [dep: 8]
+  [p] job(1): setup sector mappings  [dep: 2,3,4,5,6,7,8]
+
+
+Date: Thu Nov 13 17:51:38 2025
+
+Run ID: 0c9cec5b
+
+Starting job(8): setup crossings
+Completed Job(8) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Thu Nov 13 17:51:38 2025
+
+Run ID: 0c9cec5b
+
+Starting job(7): verify permutation symmetries of family 'F15'
+Completed Job(7) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Thu Nov 13 17:51:38 2025
+
+Run ID: 0c9cec5b
+
+Starting job(6): verify permutation symmetries of family 'F6'
+Completed Job(6) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Thu Nov 13 17:51:38 2025
+
+Run ID: 0c9cec5b
+
+Starting job(5): verify permutation symmetries of family 'F9'
+Completed Job(5) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Thu Nov 13 17:51:38 2025
+
+Run ID: 0c9cec5b
+
+Starting job(4): verify permutation symmetries of family 'F2'
+Completed Job(4) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Thu Nov 13 17:51:38 2025
+
+Run ID: 0c9cec5b
+
+Starting job(3): verify permutation symmetries of family 'F38'
+Completed Job(3) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Thu Nov 13 17:51:38 2025
+
+Run ID: 0c9cec5b
+
+Starting job(2): verify permutation symmetries of family 'F4'
+Completed Job(2) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+
+Date: Thu Nov 13 17:51:38 2025
+
+Run ID: 0c9cec5b
+
+Starting job(1): setup sector mappings
+Completed Job(1) [Time: 54s, CPU: 49s]
+Updating job queue dependencies
+Completed jobs in jobqueue
+
+Completed all jobs
+Total run time: 54 s
+Killing Fermat

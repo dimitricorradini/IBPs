@@ -1,0 +1,15 @@
+
+Date: Thu Nov 13 17:51:38 2025
+
+
+conditional: false
+integralfamily: F38
+abort_on_first_error: true
+dummy_output_file: ./tmp/permutation_symmetries_verified_for_F38
+
+Verifying permutation symmetries of integral family 'F38'
+All permutation symmetries verified
+
+Complete permutation symmetries of integral family 'F38'
+
+Job done (total time: 0 s)

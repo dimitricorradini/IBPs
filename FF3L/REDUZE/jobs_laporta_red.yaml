@@ -1,0 +1,16 @@
+jobs:
+  - select_reductions:
+      input_file: "myintegrals"
+      output_file: "tmp/myintegrals.tmp"
+      notfound_file: "myintegrals.tmp.masters"
+      conditional: false
+      generate_crossed: false
+  - reduce_files:
+      equation_files: ["tmp/myintegrals.tmp"]
+      output_file: "myintegrals.sol"
+      reduzer_options:
+        num_equations_per_subjob: 1
+  - export:
+      input_file: "myintegrals.sol"
+      output_file: "myintegrals.sol.mma"
+      output_format: "mma"

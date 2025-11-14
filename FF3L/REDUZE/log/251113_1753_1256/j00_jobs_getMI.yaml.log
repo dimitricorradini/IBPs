@@ -1,0 +1,39 @@
+
+Date: Thu Nov 13 17:53:12 2025
+
+Setting up job queue from jobs_getMI.yaml
+Updating job queue dependencies
+Processing jobs in serial mode (non-MPI build)
+Inserted new job in queue: job(1): export file myintegrals.tmp.masters
+Updating job queue dependencies
+Loading uncrossed integral families from file ./config/integralfamilies.yaml
+Initialize integral family 'F15'
+Loaded integral family F15
+Initialize integral family 'F6'
+Loaded integral family F6
+Initialize integral family 'F9'
+Loaded integral family F9
+Initialize integral family 'F2'
+Loaded integral family F2
+Initialize integral family 'F38'
+Loaded integral family F38
+Initialize integral family 'F4'
+Loaded integral family F4
+Loaded 6 (uncrossed) integral families
+Done loading uncrossed integral families
+Updated job queue:
+  [p] job(1): export file myintegrals.tmp.masters  [dep: ]
+
+
+Date: Thu Nov 13 17:53:12 2025
+
+Run ID: 0c9d1118
+
+Starting job(1): export file myintegrals.tmp.masters
+Completed Job(1) [Time: 0s, CPU: 0s]
+Updating job queue dependencies
+Completed jobs in jobqueue
+
+Completed all jobs
+Total run time: 0 s
+Killing Fermat

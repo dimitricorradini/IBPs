@@ -1,0 +1,20 @@
+digraph F9_4_788 {
+  label="F9_4_788";
+  rankdir="LR";
+  subgraph edges {
+    -1 -> 2 [label="(-p2-p1,2*r;1)"];
+    -2 -> 2 [label="(p1,0;2)"];
+    -3 -> 1 [label="(p2,0;3)"];
+    1 -> 2 [label="(k3,0;6)"];
+    1 -> 2 [label="(k1+p2,0;8)"];
+    2 -> 1 [label="(k2+k1+p2+k3,0;12)"];
+    1 -> 2 [label="(k2+p2,0;13)"];
+  }
+  subgraph incoming { rank="source"; -1; -2; -3; }
+-3 [shape=point];
+-2 [shape=point];
+-1 [shape=point];
+1 [shape=point];
+2 [shape=point];
+}
+

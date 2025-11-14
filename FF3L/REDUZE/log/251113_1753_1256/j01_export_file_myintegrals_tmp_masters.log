@@ -1,0 +1,43 @@
+
+Date: Thu Nov 13 17:53:12 2025
+
+
+conditional: false
+input_file: myintegrals.tmp.masters
+output_file: masters.mma
+output_format: mma
+preferred_masters_file: ""
+new_parameters: []
+reparametrization_rules: []
+toggle_metric_convention: false
+series_expansion: []
+
+Checking type of input file "myintegrals.tmp.masters"
+Using integral family F15 (id reset to 1)
+Loading crossings from file ./sectormappings/crossings.yaml
+Crossing equivalence: '' -> ''
+using crossing x23 (invs: {}, mom: {p2==p1,p1==p2})
+Crossing equivalence: 'x23' -> ''
+Crossing equivalence: '' -> ''
+Loaded crossings for kinematics ''
+Loaded crossings for 1 kinematics
+Done loading crossings
+  generated crossed integral family F15x23 (id set to 2)
+Using integral family F6 (id reset to 3)
+  generated crossed integral family F6x23 (id set to 4)
+Using integral family F9 (id reset to 5)
+  generated crossed integral family F9x23 (id set to 6)
+Using integral family F2 (id reset to 7)
+  generated crossed integral family F2x23 (id set to 8)
+Using integral family F38 (id reset to 9)
+  generated crossed integral family F38x23 (id set to 10)
+Using integral family F4 (id reset to 11)
+  generated crossed integral family F4x23 (id set to 12)
+Done loading integral families
+Exporting contents of file 'myintegrals.tmp.masters'
+  processing 888 bytes
+  ..................................................  **************************************************
+Exported to file 'masters.mma'
+  assuming file contains a list of integrals
+
+Job done (total time: 0 s)

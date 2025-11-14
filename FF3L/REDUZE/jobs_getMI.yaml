@@ -1,0 +1,5 @@
+jobs:
+  - export:
+      input_file: "myintegrals.tmp.masters"
+      output_file: "masters.mma"
+      output_format: "mma"

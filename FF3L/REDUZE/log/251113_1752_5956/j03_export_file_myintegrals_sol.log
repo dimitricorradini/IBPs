@@ -1,0 +1,73 @@
+
+Date: Thu Nov 13 17:53:02 2025
+
+
+conditional: false
+input_file: myintegrals.sol
+output_file: myintegrals.sol.mma
+output_format: mma
+preferred_masters_file: ""
+new_parameters: []
+reparametrization_rules: []
+toggle_metric_convention: false
+series_expansion: []
+
+Checking type of input file "myintegrals.sol"
+  file contains equations
+Exporting contents of file 'myintegrals.sol'
+  processing 5165 bytes
+  ..................................................  *No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+*No symbol found which was set to one and needs reconstruction
+
+Exported to file 'myintegrals.sol.mma'
+
+Job done (total time: 0 s)

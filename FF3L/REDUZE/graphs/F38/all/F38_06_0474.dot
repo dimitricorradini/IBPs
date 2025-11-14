@@ -1,0 +1,24 @@
+digraph F38_6_474 {
+  label="F38_6_474";
+  rankdir="LR";
+  subgraph edges {
+    -1 -> 4 [label="(-p2-p1,2*r;1)"];
+    -2 -> 1 [label="(p1,0;2)"];
+    -3 -> 1 [label="(p2,0;3)"];
+    2 -> 3 [label="(k2,0;5)"];
+    1 -> 2 [label="(p1-k1,0;7)"];
+    1 -> 2 [label="(p2+k1,0;8)"];
+    2 -> 3 [label="(p2+k3+k1,0;10)"];
+    2 -> 4 [label="(-k3+p1-k2-k1,0;11)"];
+    3 -> 4 [label="(p2+k3+k2+k1,0;12)"];
+  }
+  subgraph incoming { rank="source"; -1; -2; -3; }
+-3 [shape=point];
+-2 [shape=point];
+-1 [shape=point];
+1 [shape=point];
+2 [shape=point];
+3 [shape=point];
+4 [shape=point];
+}
+

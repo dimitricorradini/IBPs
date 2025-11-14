@@ -1,0 +1,20 @@
+digraph F15_4_1824 {
+  label="F15_4_1824";
+  rankdir="LR";
+  subgraph edges {
+    -1 -> 2 [label="(-p2-p1,2*r;1)"];
+    -2 -> 1 [label="(p1,0;2)"];
+    -3 -> 1 [label="(p2,0;3)"];
+    1 -> 2 [label="(-k2-k1+p1,0;9)"];
+    1 -> 2 [label="(k3+k2+p2+k1,0;12)"];
+    1 -> 2 [label="(k2+p2,0;13)"];
+    2 -> 1 [label="(k3+k2+p2,0;14)"];
+  }
+  subgraph incoming { rank="source"; -1; -2; -3; }
+-3 [shape=point];
+-2 [shape=point];
+-1 [shape=point];
+1 [shape=point];
+2 [shape=point];
+}
+

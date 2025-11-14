@@ -1,0 +1,6 @@
+crossings:
+  - name: ""
+    ordered_crossings:
+      - permutation: [[2, 3]]  # name: x23
+                               # rules_momenta: {p2==p1,p1==p2}
+                               # rules_invariants: {}

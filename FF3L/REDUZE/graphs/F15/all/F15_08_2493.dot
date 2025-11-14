@@ -1,0 +1,28 @@
+digraph F15_8_2493 {
+  label="F15_8_2493";
+  rankdir="LR";
+  subgraph edges {
+    -1 -> 5 [label="(-p2-p1,2*r;1)"];
+    -2 -> 1 [label="(p1,0;2)"];
+    -3 -> 2 [label="(p2,0;3)"];
+    1 -> 2 [label="(k1,0;4)"];
+    3 -> 6 [label="(k3,0;6)"];
+    1 -> 6 [label="(-k1+p1,0;7)"];
+    2 -> 4 [label="(p2+k1,0;8)"];
+    6 -> 3 [label="(-k2-k1+p1,0;9)"];
+    3 -> 5 [label="(-k3-k2-k1+p1,0;11)"];
+    4 -> 5 [label="(k3+k2+p2+k1,0;12)"];
+    6 -> 4 [label="(k3+k2,0;15)"];
+  }
+  subgraph incoming { rank="source"; -1; -2; -3; }
+-3 [shape=point];
+-2 [shape=point];
+-1 [shape=point];
+1 [shape=point];
+2 [shape=point];
+3 [shape=point];
+4 [shape=point];
+5 [shape=point];
+6 [shape=point];
+}
+
