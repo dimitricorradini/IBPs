@@ -8,6 +8,7 @@ To perform computations, I normally use the following setup:
 reduction faster.
 
 • REDUZE is used in case I need to map from the master integrals of one family to those of another.
+
 • DLogBasis is used to obtain canonical dlog bases.
 
 • PolyLogTools is used to perform the iterated integrations of the dlog forms appearing in the
