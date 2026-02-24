@@ -17,4 +17,4 @@ differential equations.
 
 • Future: I want to learn Blade used in conjunction with FiniteFlow to make complicated reductions faster.
 
-If one wants to run this themselves, it is recommended that one has at least these programs installed and appended to the Mathematica path. The repository should be cloned to the FIRE6 folder. The directories F1 through F9 compute various topologies related to the three-loop form factor in N=4 sYM. The directories 3LLad and 3LTC compute the three-loop ladder topology and 'tennis-court' topology respectively, relevant for the four-point amplitude at three-loops in N=4 sYM.
+If one wants to run this themselves, it is recommended that one has at least these programs installed and appended to the Mathematica path. The repository should be cloned to the FIRE6 folder. The directory FF computes various topologies related to the three-loop form factor in N=4 sYM. The directories 3LLad and 3LTC compute the three-loop ladder topology and 'tennis-court' topology respectively, relevant for the four-point amplitude at three-loops in N=4 sYM.
