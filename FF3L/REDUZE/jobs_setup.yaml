@@ -1,3 +1,0 @@
-jobs:
-  - setup_sector_mappings:
-      allow_general_crossings: false
