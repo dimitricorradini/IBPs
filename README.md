@@ -12,8 +12,14 @@ reduction faster.
 
 • DLogBasis is used to obtain canonical dlog bases.
 
+• FiniteFlow is used for various situation in which a fast solution to linear systems is required, e.g.
+for computing the change of basis to a predetermined dlog basis.
+
 • PolyLogTools is used to perform the iterated integrations of the dlog forms appearing in the
 differential equations.
+
+• Numerical checks and evaluations are carried out using either AMFlow or pySecDec, depending
+on the specific problem at hand
 
 • Future: I want to learn Blade used in conjunction with FiniteFlow to make complicated reductions faster.
 
