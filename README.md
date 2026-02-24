@@ -1,5 +1,6 @@
-# IBPs
+# IBPs and integration
 
+Repository for various experiments and exercises involving integration of Feynman diagrams with different topologies.
 To perform computations, I normally use the following setup:
 
 • FIRE (version 6.1) is used to perform the reduction step.
