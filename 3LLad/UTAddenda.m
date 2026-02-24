@@ -1,0 +1,2 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+{{1, {0, 0, 2, 0, 0, 2, 2, 0, 0, 1, 0, 0, 0, 0, 0}}}
