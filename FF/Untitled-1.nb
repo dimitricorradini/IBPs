@@ -1,0 +1,62 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      1623,         52]
+NotebookOptionsPosition[      1186,         37]
+NotebookOutlinePosition[      1578,         53]
+CellTagsIndexPosition[      1535,         50]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.981001435402008*^9, 
+  3.98100144512941*^9}},ExpressionUUID->"37fb44e8-750f-47af-8e57-\
+c7f6e120de3b"],
+
+Cell[BoxData[{
+ RowBox[{"Changerules", "=", 
+  RowBox[{"Import", "[", "\"\<myintegrals.sol.m\>\"", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"MastersF5", "=", 
+  RowBox[{"Import", "[", "\"\<MIF5.m\>\"", "]"}]}]}], "Input",
+ CellChangeTimes->{{3.980999144939476*^9, 3.98099916783165*^9}, {
+  3.981001411924707*^9, 
+  3.981001430594665*^9}},ExpressionUUID->"4bb0c022-b41d-4c3e-8d4b-\
+64b3213c8d99"]
+},
+WindowSize->{808, 747},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"14.2 for Mac OS X x86 (64-bit) (March 16, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"76aa76bb-75f3-4f15-b795-f0f38e1f3b1a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 229, 5, 29, "Input",ExpressionUUID->"37fb44e8-750f-47af-8e57-c7f6e120de3b"],
+Cell[786, 27, 396, 8, 49, "Input",ExpressionUUID->"4bb0c022-b41d-4c3e-8d4b-64b3213c8d99"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
