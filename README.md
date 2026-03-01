@@ -1,4 +1,4 @@
-# IBPs and integration
+# Integration
 
 Repository for various experiments and exercises involving integration of Feynman diagrams with different topologies.
 To perform computations, I normally use the following setup:
