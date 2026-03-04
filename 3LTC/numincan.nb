@@ -1,0 +1,620 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     24290,        612]
+NotebookOptionsPosition[     22515,        573]
+NotebookOutlinePosition[     22907,        589]
+CellTagsIndexPosition[     22864,        586]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.981606598906226*^9, 3.981606606538773*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"179f516d-d0f1-457b-a21a-d97918eb8752"],
+
+Cell[BoxData["\<\"/Users/corradini/fire/FIRE6/FF/3LTC\"\>"], "Output",
+ CellChangeTimes->{3.981606608508671*^9},
+ CellLabel->"Out[35]=",ExpressionUUID->"33a2585d-b26b-4ec7-8ad2-f788c8807d12"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"numTC", "=", 
+  RowBox[{"Import", "[", "\"\<ExampleNum.m\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.981606610646421*^9, 3.981606629934762*^9}, {
+  3.981606668270947*^9, 3.9816066695251217`*^9}, {3.981606702717783*^9, 
+  3.981606762162136*^9}, {3.981606932810712*^9, 3.9816069350392227`*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"aa852ad8-a001-4c55-8ee6-5a3d8fa508db"],
+
+Cell[BoxData[
+ TemplateBox[<|"shortenedBoxes" -> TagBox[
+     RowBox[{
+       RowBox[{"-", 
+         FractionBox[
+          RowBox[{
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "5"}], "+", 
+                RowBox[{"2", " ", 
+                  RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}]}]}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{
+                  RowBox[{"-", "7321296767439955914915840"}], " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}], "2"], " ", 
+                  SuperscriptBox["s", "9"]}], "+", 
+                TemplateBox[{"407"}, "OutputSizeLimit`Skeleton"], "+", 
+                RowBox[{"353802805632", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}], "26"], " ", 
+                  SuperscriptBox["t", "9"]}], "-", 
+                RowBox[{"3765424968", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}], "27"], " ", 
+                  SuperscriptBox["t", "9"]}]}], ")"}], " ", 
+            RowBox[{"G", "[", 
+              RowBox[{"1", ",", 
+                RowBox[{"{", 
+                  
+                  RowBox[{
+                   "0", ",", "0", ",", "0", ",", "1", ",", "1", ",", "1", ",",
+                     "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+                    ",", "0", ",", "0", ",", "0"}], "}"}]}], "]"}]}], 
+          RowBox[{"2880", " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "11"}], "+", 
+                RowBox[{"2", " ", 
+                  RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}]}]}], ")"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{
+                 RowBox[{"-", "16"}], "+", 
+                 RowBox[{"3", " ", 
+                   RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}]}]}], ")"}], "3"], " ", 
+            
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{
+                 RowBox[{"-", "14"}], "+", 
+                 RowBox[{"3", " ", 
+                   RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}]}]}], ")"}], "2"], " ", 
+            
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "10"}], "+", 
+                RowBox[{"3", " ", 
+                  RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}]}]}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "24"}], "+", 
+                RowBox[{"5", " ", 
+                  RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}]}]}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "22"}], "+", 
+                RowBox[{"5", " ", 
+                  RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}]}]}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "18"}], "+", 
+                RowBox[{"5", " ", 
+                  RowBox[{"(", 
+                    RowBox[{"4", "-", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}]}]}], ")"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], ")"}], "2"], 
+            " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], ")"}], "2"], 
+            " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"1", "-", 
+                 TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"]}], ")"}], 
+             "2"], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"2", "-", 
+                 RowBox[{"2", " ", "eps"}]}], ")"}], "3"], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"3", "-", 
+                 RowBox[{"2", " ", "eps"}]}], ")"}], "2"], " ", 
+            RowBox[{"(", 
+              RowBox[{"4", "-", 
+                RowBox[{"2", " ", "eps"}]}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{"6", "-", 
+                RowBox[{"2", " ", "eps"}]}], ")"}], " ", 
+            SuperscriptBox["eps", "5"], " ", 
+            SuperscriptBox["s", "5"], " ", 
+            SuperscriptBox["t", "3"], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"s", "+", "t"}], ")"}], "3"]}]]}], "+", 
+       TemplateBox[{"63"}, "OutputSizeLimit`Skeleton"], "+", 
+       TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], "+", 
+       FractionBox[
+        RowBox[{
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{"-", "2"}], "-", 
+              RowBox[{"2", " ", "eps"}]}], ")"}], " ", 
+          TemplateBox[{"5"}, "OutputSizeLimit`Skeleton"], " ", 
+          RowBox[{"G", "[", 
+            RowBox[{"1", ",", 
+              RowBox[{"{", 
+                RowBox[{"1", ",", 
+                  TemplateBox[{"13"}, "OutputSizeLimit`Skeleton"], ",", "0"}],
+                 "}"}]}], "]"}]}], 
+        RowBox[{"80", " ", 
+          TemplateBox[{"6"}, "OutputSizeLimit`Skeleton"], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+             RowBox[{"3", "-", 
+               TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"]}], ")"}], 
+           "2"]}]]}], Short[#, 8]& ], "line" -> 38, "sessionID" -> 
+   29351786981090746971, "byteCount" -> 2327048, "size" -> 8, "stored" -> 
+   False, "expr" -> Missing["NotStored"], "wrap" -> OutputSizeLimit`Defer, 
+   "version" -> 1|>,
+  "OutputSizeLimitTemplate"]], "Output",
+ CellChangeTimes->{3.9816068958569613`*^9, 3.981606935578183*^9},
+ CellLabel->"Out[38]=",ExpressionUUID->"58d148c5-4a5c-4215-b06f-88a282a5c564"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"MIs", "=", 
+   RowBox[{
+    RowBox[{"Import", "[", "\"\<mastersLadCan.m\>\"", "]"}], "/.", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"1", ",", 
+        RowBox[{"{", "a__", "}"}]}], "}"}], ":>", 
+      RowBox[{"G", "[", 
+       RowBox[{"1", ",", 
+        RowBox[{"{", "a", "}"}]}], "]"}]}], "}"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.981606814080586*^9, 3.9816068296486893`*^9}, {
+  3.9816069392172337`*^9, 3.981606964829611*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"88bbd314-7355-4bad-8072-aa6bab943142"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"MtoCanMat", "=", 
+   RowBox[{"Import", "[", "\"\<MIstoCan.m\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.981607064294361*^9, 3.98160709543053*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"b8726df6-f74c-4384-a4ed-6dc0616c97bf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NuminCan", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Coefficient", "[", 
+        RowBox[{"numTC", ",", "#"}], "]"}], "&"}], "/@", "MIs"}], ")"}], ".", 
+    "MtoCanMat"}], "//", "Simplify"}]}]], "Input",
+ CellChangeTimes->{{3.9816078669984837`*^9, 3.981607871916772*^9}},
+ CellLabel->"In[54]:=",ExpressionUUID->"8ffed51d-a384-4c80-b59d-e1353aaf03ca"],
+
+Cell[BoxData[
+ TemplateBox[<|"shortenedBoxes" -> TagBox[
+     RowBox[{"{", 
+       RowBox[{
+         FractionBox[
+          RowBox[{
+            RowBox[{
+              RowBox[{"-", "846720"}], " ", 
+              SuperscriptBox["t", "3"], " ", 
+              SuperscriptBox[
+               RowBox[{"(", 
+                 RowBox[{"s", "+", "t"}], ")"}], "4"], " ", 
+              RowBox[{"(", 
+                RowBox[{"s", "+", 
+                  RowBox[{"2", " ", "t"}]}], ")"}]}], "+", 
+            TemplateBox[{"32"}, "OutputSizeLimit`Skeleton"]}], 
+          RowBox[{"40", " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "3"}], "+", "eps"}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "2"}], "+", "eps"}], ")"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{
+                 RowBox[{"-", "1"}], "+", "eps"}], ")"}], "3"], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{
+                 RowBox[{"-", "1"}], "+", 
+                 RowBox[{"2", " ", "eps"}]}], ")"}], "3"], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"1", "+", 
+                 RowBox[{"2", " ", "eps"}]}], ")"}], "3"], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "2"}], "+", 
+                RowBox[{"3", " ", "eps"}]}], ")"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"1", "+", 
+                 RowBox[{"3", " ", "eps"}]}], ")"}], "3"], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "1"}], "+", 
+                RowBox[{"4", " ", "eps"}]}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{"1", "+", 
+                RowBox[{"4", " ", "eps"}]}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "1"}], "+", 
+                RowBox[{"5", " ", "eps"}]}], ")"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"3", "-", 
+                 RowBox[{"11", " ", "eps"}], "+", 
+                 RowBox[{"6", " ", 
+                   SuperscriptBox["eps", "2"]}]}], ")"}], "2"], " ", 
+            SuperscriptBox["s", "3"], " ", "t", " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"s", "+", "t"}], ")"}], "4"]}]], ",", 
+         FractionBox[
+          RowBox[{
+            TemplateBox[{"32"}, "OutputSizeLimit`Skeleton"], "+", 
+            RowBox[{
+              SuperscriptBox["eps", "14"], " ", 
+              RowBox[{"(", 
+                TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], ")"}]}]}], 
+          RowBox[{"120", " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "3"}], "+", "eps"}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "2"}], "+", "eps"}], ")"}], " ", 
+            TemplateBox[{"9"}, "OutputSizeLimit`Skeleton"], " ", 
+            SuperscriptBox["s", "3"], " ", "t", " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"s", "+", "t"}], ")"}], "4"]}]], ",", 
+         FractionBox[
+          TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], 
+          TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"]], ",", 
+         TemplateBox[{"35"}, "OutputSizeLimit`Skeleton"], ",", 
+         FractionBox[
+          TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], 
+          TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"]], ",", 
+         FractionBox[
+          RowBox[{
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "3"}], "+", "eps"}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "2"}], "+", "eps"}], ")"}], " ", 
+            RowBox[{"(", 
+              TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], ")"}]}], 
+          RowBox[{"10", " ", 
+            TemplateBox[{"5"}, "OutputSizeLimit`Skeleton"], " ", 
+            SuperscriptBox["s", "3"]}]], ",", 
+         FractionBox[
+          RowBox[{
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "3"}], "+", "eps"}], ")"}], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "2"}], "+", "eps"}], ")"}], " ", "eps", " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"1", "-", 
+                    RowBox[{"4", " ", "eps"}]}], ")"}], "2"], " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}], "3"], " ", 
+                  SuperscriptBox["s", "2"]}], "-", 
+                RowBox[{"3", " ", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{"1", "+", 
+                    RowBox[{"2", " ", "eps"}]}], ")"}], "3"], " ", 
+                  RowBox[{"(", 
+                    RowBox[{"2", "-", 
+                    RowBox[{"11", " ", "eps"}], "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox["eps", "2"]}]}], ")"}], " ", "s", " ", 
+                  "t"}], "+", 
+                RowBox[{"60", " ", 
+                  RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", "1"}], "+", 
+                    RowBox[{"5", " ", "eps"}]}], ")"}], " ", 
+                  SuperscriptBox["t", "2"]}]}], ")"}]}], 
+          RowBox[{"10", " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"1", "-", 
+                 RowBox[{"2", " ", "eps"}]}], ")"}], "2"], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"3", "-", 
+                 RowBox[{"2", " ", "eps"}]}], ")"}], "2"], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "1"}], "+", "eps"}], ")"}], " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+               RowBox[{"1", "+", 
+                 RowBox[{"2", " ", "eps"}]}], ")"}], "2"], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "1"}], "+", 
+                RowBox[{"5", " ", "eps"}]}], ")"}], " ", 
+            SuperscriptBox["s", "2"]}]]}], "}"}], Short[#, 8]& ], "line" -> 
+   54, "sessionID" -> 29351786981090746971, "byteCount" -> 971528, "size" -> 
+   8, "stored" -> False, "expr" -> Missing["NotStored"], "wrap" -> 
+   OutputSizeLimit`Defer, "version" -> 1|>,
+  "OutputSizeLimitTemplate"]], "Output",
+ CellChangeTimes->{3.981607880730381*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"8f7f6b8a-eabd-40c7-8858-9655e76b2817"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<ExampleNuminCan.m\>\"", ",", "NuminCan"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9816068341179943`*^9, 3.9816068753001833`*^9}, 
+   3.981606968963284*^9, {3.981607223179509*^9, 3.981607269956582*^9}, {
+   3.9816073508635187`*^9, 3.9816073800626793`*^9}, {3.981607863443371*^9, 
+   3.9816078652917013`*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"62effbe0-fa9f-4584-90be-96106da3860b"],
+
+Cell[BoxData["\<\"ExampleNuminCan.m\"\>"], "Output",
+ CellChangeTimes->{
+  3.981606970596705*^9, {3.981607231662956*^9, 3.981607257473958*^9}, {
+   3.9816073782470837`*^9, 3.9816073905203533`*^9}, 3.9816078809085903`*^9},
+ CellLabel->"Out[55]=",ExpressionUUID->"7edc33b1-604b-44b9-a684-8215d715b7bd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"canonicalssol", "=", 
+  RowBox[{"NuminCan", ".", 
+   RowBox[{"Import", "[", "\"\<fullsol.m\>\"", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.981607816217811*^9, 3.9816078308418407`*^9}, {
+   3.9816078867518797`*^9, 3.98160789504408*^9}, 3.98160840252386*^9},
+ CellLabel->"In[58]:=",ExpressionUUID->"031f61bd-c88e-4baf-b66c-f8311acedcf5"],
+
+Cell[BoxData[
+ TemplateBox[<|"shortenedBoxes" -> TagBox[
+     RowBox[{
+       FractionBox[
+        RowBox[{
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{"1918080", " ", 
+                SuperscriptBox["t", "3"], " ", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                   RowBox[{"s", "+", "t"}], ")"}], "4"], " ", 
+                RowBox[{"(", 
+                  RowBox[{"s", "+", 
+                    RowBox[{"2", " ", "t"}]}], ")"}]}], "-", 
+              TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], "+", 
+              TemplateBox[{"29"}, "OutputSizeLimit`Skeleton"], "+", 
+              RowBox[{
+                SuperscriptBox["eps", "14"], " ", 
+                RowBox[{"(", 
+                  RowBox[{
+                    RowBox[{"1134691251600", " ", 
+                    SuperscriptBox["s", "8"]}], "+", 
+                    RowBox[{"3676396392293", " ", 
+                    SuperscriptBox["s", "7"], " ", "t"}], "+", 
+                    RowBox[{"15650943704608", " ", 
+                    SuperscriptBox["s", "6"], " ", 
+                    SuperscriptBox["t", "2"]}], "+", 
+                    RowBox[{"109213577281294", " ", 
+                    SuperscriptBox["s", "5"], " ", 
+                    SuperscriptBox["t", "3"]}], "+", 
+                    TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], "+", 
+                    RowBox[{"652040899691821", " ", 
+                    SuperscriptBox["s", "3"], " ", 
+                    SuperscriptBox["t", "5"]}], "+", 
+                    RowBox[{"609573132090892", " ", 
+                    SuperscriptBox["s", "2"], " ", 
+                    SuperscriptBox["t", "6"]}], "+", 
+                    RowBox[{"295363377718680", " ", "s", " ", 
+                    SuperscriptBox["t", "7"]}], "+", 
+                    RowBox[{"58511859142920", " ", 
+                    SuperscriptBox["t", "8"]}]}], ")"}]}]}], ")"}], " ", 
+          RowBox[{"(", 
+            TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], ")"}]}], 
+        RowBox[{"120", " ", 
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{"-", "3"}], "+", "eps"}], ")"}], " ", 
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{"-", "2"}], "+", "eps"}], ")"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+             RowBox[{
+               RowBox[{"-", "1"}], "+", "eps"}], ")"}], "3"], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+             RowBox[{
+               RowBox[{"-", "1"}], "+", 
+               RowBox[{"2", " ", "eps"}]}], ")"}], "3"], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+             RowBox[{"1", "+", 
+               RowBox[{"2", " ", "eps"}]}], ")"}], "3"], " ", 
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{"-", "2"}], "+", 
+              RowBox[{"3", " ", "eps"}]}], ")"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+             RowBox[{"1", "+", 
+               RowBox[{"3", " ", "eps"}]}], ")"}], "3"], " ", 
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              RowBox[{"4", " ", "eps"}]}], ")"}], " ", 
+          RowBox[{"(", 
+            RowBox[{"1", "+", 
+              RowBox[{"4", " ", "eps"}]}], ")"}], " ", 
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{"-", "1"}], "+", 
+              RowBox[{"5", " ", "eps"}]}], ")"}], " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+             RowBox[{"3", "-", 
+               RowBox[{"11", " ", "eps"}], "+", 
+               RowBox[{"6", " ", 
+                 SuperscriptBox["eps", "2"]}]}], ")"}], "2"], " ", 
+          SuperscriptBox["s", "3"], " ", "t", " ", 
+          SuperscriptBox[
+           RowBox[{"(", 
+             RowBox[{"s", "+", "t"}], ")"}], "4"]}]], "+", 
+       TemplateBox[{"42"}, "OutputSizeLimit`Skeleton"], "+", 
+       FractionBox[
+        RowBox[{
+          SuperscriptBox["eps", "2"], " ", "t", " ", 
+          TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], " ", 
+          RowBox[{"(", 
+            RowBox[{
+              FractionBox["1", "36"], "+", 
+              TemplateBox[{"4"}, "OutputSizeLimit`Skeleton"], "+", 
+              RowBox[{
+                SuperscriptBox["eps", "5"], " ", 
+                RowBox[{"(", 
+                  TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], ")"}]}]}], 
+            ")"}]}], 
+        RowBox[{"5", " ", 
+          TemplateBox[{"6"}, "OutputSizeLimit`Skeleton"], " ", 
+          SuperscriptBox["s", "3"]}]]}], Short[#, 8]& ], "line" -> 58, 
+   "sessionID" -> 29351786981090746971, "byteCount" -> 2025896, "size" -> 8, 
+   "stored" -> False, "expr" -> Missing["NotStored"], "wrap" -> 
+   OutputSizeLimit`Defer, "version" -> 1|>,
+  "OutputSizeLimitTemplate"]], "Output",
+ CellChangeTimes->{
+  3.981607831887311*^9, 3.981607890488443*^9, {3.9816083995323153`*^9, 
+   3.981608402943037*^9}},
+ CellLabel->"Out[58]=",ExpressionUUID->"dcb0ab86-efa2-4386-a866-f515c00b4239"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<ExampleNumsol.m\>\"", ",", "canonicalssol"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9816079199894753`*^9, 3.981607934834057*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"66f8b676-e908-4e2d-8c8c-d2de5bb5c859"],
+
+Cell[BoxData["\<\"ExampleNumsol.m\"\>"], "Output",
+ CellChangeTimes->{3.981608404629901*^9},
+ CellLabel->"Out[59]=",ExpressionUUID->"bebc3e13-588b-41c6-8508-4ea72d21c219"]
+}, Open  ]]
+},
+WindowSize->{808, 747},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"14.2 for Mac OS X x86 (64-bit) (March 16, 2025)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"31334ce1-3c2f-4a16-a298-be0e010aae99"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 249, 4, 29, "Input",ExpressionUUID->"179f516d-d0f1-457b-a21a-d97918eb8752"],
+Cell[828, 28, 191, 2, 33, "Output",ExpressionUUID->"33a2585d-b26b-4ec7-8ad2-f788c8807d12"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1056, 35, 398, 6, 29, "Input",ExpressionUUID->"aa852ad8-a001-4c55-8ee6-5a3d8fa508db"],
+Cell[1457, 43, 6356, 157, 179, "Output",ExpressionUUID->"58d148c5-4a5c-4215-b06f-88a282a5c564"]
+}, Open  ]],
+Cell[7828, 203, 576, 15, 29, "Input",ExpressionUUID->"88bbd314-7355-4bad-8072-aa6bab943142"],
+Cell[8407, 220, 270, 5, 29, "Input",ExpressionUUID->"b8726df6-f74c-4384-a4ed-6dc0616c97bf"],
+Cell[CellGroupData[{
+Cell[8702, 229, 423, 11, 29, "Input",ExpressionUUID->"8ffed51d-a384-4c80-b59d-e1353aaf03ca"],
+Cell[9128, 242, 6741, 167, 164, "Output",ExpressionUUID->"8f7f6b8a-eabd-40c7-8858-9655e76b2817"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15906, 414, 440, 7, 29, "Input",ExpressionUUID->"62effbe0-fa9f-4584-90be-96106da3860b"],
+Cell[16349, 423, 300, 4, 33, "Output",ExpressionUUID->"7edc33b1-604b-44b9-a684-8215d715b7bd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16686, 432, 360, 6, 29, "Input",ExpressionUUID->"031f61bd-c88e-4baf-b66c-f8311acedcf5"],
+Cell[17049, 440, 4976, 117, 183, "Output",ExpressionUUID->"dcb0ab86-efa2-4386-a866-f515c00b4239"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22062, 562, 263, 4, 29, "Input",ExpressionUUID->"66f8b676-e908-4e2d-8c8c-d2de5bb5c859"],
+Cell[22328, 568, 171, 2, 33, "Output",ExpressionUUID->"bebc3e13-588b-41c6-8508-4ea72d21c219"]
+}, Open  ]]
+}
+]
+*)
+
